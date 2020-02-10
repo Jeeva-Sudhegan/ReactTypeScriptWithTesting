@@ -1,0 +1,39 @@
+{
+  "name": "react-typescript-jest-react-testing-library-config",
+  "version": "1.0.0",
+  "description": "Configuration steps for React + Typescript + Jest + React Testing Library from scratch",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^13.7.0",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-router-dom": "^5.1.3",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/react-hooks": "^3.2.1",
+    "@types/jest": "^25.1.2",
+    "jest": "^25.1.0",
+    "react-test-renderer": "^16.12.0",
+    "ts-jest": "^25.2.0",
+    "ts-loader": "^6.2.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w",
+    "parcel": "parcel index.html",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
